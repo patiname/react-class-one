@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import ClassComponent from "./02.component,props/ClassComponent";
+import FnComponent from "./02.component,props/FnComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <FnComponent menu="라면" side="김밥" day="5월" />
+      <ClassComponent menu="파스타" side="콜라" day="5월" />
     </div>
   );
 }
