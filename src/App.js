@@ -2,8 +2,11 @@
 // import FnComponent from "./02.component,props/FnComponent";
 // import Menu from "./02.component,props/Menu";
 // import MapFn from "./03.mapFunction/MapFn";
-import Com from "./03.mapFunction/Com";
-import Kakao from "./03.mapFunction/Kakao";
+// import Com from "./03.mapFunction/Com";
+// import Kakao from "./03.mapFunction/Kakao";
+// import "./styles/styles.css";
+import ClassNameStyle from "./04.style/ClassNameStyle";
+import { GlobalStyled } from "./styles/Rest";
 
 // const menus = [
 //   {
@@ -43,7 +46,11 @@ function App() {
 
       {/* <MapFn /> */}
       {/* <Com /> */}
-      <Kakao />
+      {/* <Kakao /> */}
+      {/* 3일차 */}
+
+      <GlobalStyled />
+      <ClassNameStyle />
     </div>
   );
 }
