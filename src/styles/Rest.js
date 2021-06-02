@@ -8,10 +8,24 @@ export const GlobalTitle = styled.div`
   color: ${(props) => props.color};
 `;
 
+export const Title = styled.div`
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 15px;
+`;
+
+export const Desc = styled.div`
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 22px;
+`;
+
 export const GlobalStyled = createGlobalStyle`
     ${reset}
+    *{ box-sizing:border-box}
     body{
-        background-color:#fefefefe;
+        background-color:darkgray;
         font-family: 'Noto Sans KR', sans-serif;
+        color:white;
     }
 `;

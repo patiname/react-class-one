@@ -1,5 +1,13 @@
 import styled from "styled-components";
 import { GlobalTitle } from "../styles/Rest";
+import { WebContents } from "./WebContents";
+
+const Wrap = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+`;
 
 const ConWrap = styled.div`
   max-width: 400px;
@@ -23,18 +31,14 @@ const Con = styled.div`
 const Contents = ({ bg, title, desc }) => {
   //   console.log(bg, title, desc);
   return (
-    <div>
-      <ConWrap>
+    <Wrap>
+      {/* <ConWrap>
         <BgWrap bgImg={bg}></BgWrap>
         <GlobalTitle color="teal">{title}</GlobalTitle>
         <Con>{desc}</Con>
-      </ConWrap>
-      <ConWrap>
-        <BgWrap bgImg={bg}></BgWrap>
-        <GlobalTitle color="red">{title}</GlobalTitle>
-        <Con>{desc}</Con>
-      </ConWrap>
-    </div>
+      </ConWrap> */}
+      <WebContents />
+    </Wrap>
   );
 };
 

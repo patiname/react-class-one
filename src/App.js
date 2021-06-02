@@ -6,6 +6,9 @@
 // import Kakao from "./03.mapFunction/Kakao";
 // import "./styles/styles.css";
 import ClassNameStyle from "./04.style/ClassNameStyle";
+import { WebContents } from "./04.style/WebContents";
+import { Icons } from "./05.example/Icons";
+import { Music } from "./05.example/Music";
 import { GlobalStyled } from "./styles/Rest";
 
 // const menus = [
@@ -49,8 +52,13 @@ function App() {
       {/* <Kakao /> */}
       {/* 3일차 */}
 
+      {/* <GlobalStyled />
+      <ClassNameStyle /> */}
+      {/* 4일차 */}
+
+      {/* <Icons /> */}
       <GlobalStyled />
-      <ClassNameStyle />
+      <Music />
     </div>
   );
 }
