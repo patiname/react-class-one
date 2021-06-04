@@ -9,6 +9,7 @@ import ClassNameStyle from "./04.style/ClassNameStyle";
 import { WebContents } from "./04.style/WebContents";
 import { Icons } from "./05.example/Icons";
 import { Music } from "./05.example/Music";
+import { Youtube } from "./06.clone/Youtube";
 import { GlobalStyled } from "./styles/Rest";
 
 // const menus = [
@@ -57,8 +58,12 @@ function App() {
       {/* 4일차 */}
 
       {/* <Icons /> */}
+      {/* <GlobalStyled />
+      <Music /> */}
+      {/* 5일차 */}
+
       <GlobalStyled />
-      <Music />
+      <Youtube />
     </div>
   );
 }

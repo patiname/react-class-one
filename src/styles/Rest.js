@@ -24,7 +24,7 @@ export const GlobalStyled = createGlobalStyle`
     ${reset}
     *{ box-sizing:border-box}
     body{
-        background-color:darkgray;
+        background-color:#191919;
         font-family: 'Noto Sans KR', sans-serif;
         color:white;
     }
