@@ -5,11 +5,16 @@
 // import Com from "./03.mapFunction/Com";
 // import Kakao from "./03.mapFunction/Kakao";
 // import "./styles/styles.css";
-import ClassNameStyle from "./04.style/ClassNameStyle";
-import { WebContents } from "./04.style/WebContents";
-import { Icons } from "./05.example/Icons";
-import { Music } from "./05.example/Music";
+// import ClassNameStyle from "./04.style/ClassNameStyle";
+// import { WebContents } from "./04.style/WebContents";
+// import { Icons } from "./05.example/Icons";
+// import { Music } from "./05.example/Music";
 import { Youtube } from "./06.clone/Youtube";
+import { AniEvent } from "./07.event/AniEvent";
+import { ClassEvent } from "./07.event/ClassEvent";
+import { ColorEvent } from "./07.event/ColorEvent";
+import { FnEvent } from "./07.event/FnEvent";
+import { PopUp } from "./07.event/PopUp";
 import { GlobalStyled } from "./styles/Rest";
 
 // const menus = [
@@ -62,8 +67,14 @@ function App() {
       <Music /> */}
       {/* 5일차 */}
 
-      <GlobalStyled />
-      <Youtube />
+      {/* <GlobalStyled />
+      <Youtube /> */}
+
+      {/* <ClassEvent />
+      <FnEvent /> */}
+      {/* <ColorEvent /> */}
+      {/* <PopUp /> */}
+      <AniEvent />
     </div>
   );
 }
