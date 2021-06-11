@@ -9,13 +9,17 @@
 // import { WebContents } from "./04.style/WebContents";
 // import { Icons } from "./05.example/Icons";
 // import { Music } from "./05.example/Music";
-import { Youtube } from "./06.clone/Youtube";
-import { AniEvent } from "./07.event/AniEvent";
-import { ClassEvent } from "./07.event/ClassEvent";
-import { ColorEvent } from "./07.event/ColorEvent";
-import { FnEvent } from "./07.event/FnEvent";
-import { PopUp } from "./07.event/PopUp";
+// import { Youtube } from "./06.clone/Youtube";
+// import { ClassEvent } from "./07.event/ClassEvent";
+// import { ColorEvent } from "./07.event/ColorEvent";
+// import { FnEvent } from "./07.event/FnEvent";
+// import { PopUp } from "./07.event/PopUp";
+// import { Cant } from "./08.router/Cant";
+// import { ReactRouter } from "./08.router/ReactRouter";
+// import { AniEvent } from "./07.event/AniEvent";
 import { GlobalStyled } from "./styles/Rest";
+import { PhotoView } from "./08-1.router/PhotoView";
+import { HelmetProvider } from "react-helmet-async";
 
 // const menus = [
 //   {
@@ -74,7 +78,15 @@ function App() {
       <FnEvent /> */}
       {/* <ColorEvent /> */}
       {/* <PopUp /> */}
-      <AniEvent />
+      {/* <AniEvent /> */}
+
+      {/* <ReactRouter /> */}
+      {/* <Cant /> */}
+
+      <HelmetProvider>
+        <GlobalStyled />
+        <PhotoView />
+      </HelmetProvider>
     </div>
   );
 }

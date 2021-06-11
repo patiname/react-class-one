@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Header } from "./components/Header";
 import { WebConArr } from "../ConApi";
 
-console.log(WebConArr);
+// console.log(WebConArr);
 
 const Wrap = styled.div`
   width: 100%;

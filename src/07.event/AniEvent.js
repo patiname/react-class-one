@@ -1,3 +1,4 @@
+import { useState } from "react";
 import styled, { keyframes } from "styled-components";
 
 const move_ani = keyframes`
@@ -16,18 +17,24 @@ const Box = styled.div`
   width: 200px;
   height: 200px;
   background-color: gold;
-  animation: ${move_ani} 2s forwards;
+  animation: ${(props) => props.ani} 2s forwards;
   position: absolute;
-  top: 0;
+  top: 100px;
   left: 0;
 `;
 
 export const AniEvent = () => {
+  const [start, setStart] = useState();
+
+  const onClickStart = () => {
+    setStart(move_ani);
+  };
+
   return (
     <div>
-      <button>시작</button>
+      <button onClick={onClickStart}>시작</button>
       <button onClick={() => window.location.reload()}>재 시작</button>
-      <Box></Box>
+      <Box ani={start}></Box>
     </div>
   );
 };
