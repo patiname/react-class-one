@@ -17,9 +17,11 @@
 // import { Cant } from "./08.router/Cant";
 // import { ReactRouter } from "./08.router/ReactRouter";
 // import { AniEvent } from "./07.event/AniEvent";
-import { GlobalStyled } from "./styles/Rest";
-import { PhotoView } from "./08-1.router/PhotoView";
-import { HelmetProvider } from "react-helmet-async";
+// import { GlobalStyled } from "./styles/Rest";
+// import { PhotoView } from "./08-1.router/PhotoView";
+// import { HelmetProvider } from "react-helmet-async";
+
+import { Form } from "./09.form/Form";
 
 // const menus = [
 //   {
@@ -73,6 +75,7 @@ function App() {
 
       {/* <GlobalStyled />
       <Youtube /> */}
+      {/* 6일차 */}
 
       {/* <ClassEvent />
       <FnEvent /> */}
@@ -82,11 +85,15 @@ function App() {
 
       {/* <ReactRouter /> */}
       {/* <Cant /> */}
+      {/* 7일차 */}
 
-      <HelmetProvider>
+      {/* <HelmetProvider>
         <GlobalStyled />
         <PhotoView />
-      </HelmetProvider>
+      </HelmetProvider> */}
+      {/* 8일차 */}
+
+      <Form />
     </div>
   );
 }
