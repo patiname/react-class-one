@@ -17,11 +17,13 @@
 // import { Cant } from "./08.router/Cant";
 // import { ReactRouter } from "./08.router/ReactRouter";
 // import { AniEvent } from "./07.event/AniEvent";
-// import { GlobalStyled } from "./styles/Rest";
+import { GlobalStyled } from "./styles/Rest";
 // import { PhotoView } from "./08-1.router/PhotoView";
 // import { HelmetProvider } from "react-helmet-async";
 
 import { Form } from "./09.form/Form";
+import { Login } from "./10.login/Login";
+import { LoggedOutRouter } from "./10.login/LoggedOutRouter";
 
 // const menus = [
 //   {
@@ -93,7 +95,12 @@ function App() {
       </HelmetProvider> */}
       {/* 8일차 */}
 
-      <Form />
+      {/* <Form /> */}
+      {/* 9일차 */}
+
+      <GlobalStyled />
+      {/* <Login /> */}
+      <LoggedOutRouter />
     </div>
   );
 }
